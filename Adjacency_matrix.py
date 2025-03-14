@@ -27,7 +27,7 @@ num_nodes = len(nodes)
 
 # Create an adjacency matrix initialized to 0
 adjacency_matrix = [
-    [0 for i in range(num_nodes)]
+    [0 if i == j else float('inf') for i in range(num_nodes)]
     for j in range(num_nodes)
 ]
 
