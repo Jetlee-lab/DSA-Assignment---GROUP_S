@@ -1,5 +1,5 @@
 
-# Define the nodes of the graph
+# Define the nodes  of the graph
 nodes = ('1', '2', '3', '4', '5', '6', '7')
 
 # edges = (
