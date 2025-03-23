@@ -14,3 +14,4 @@ graph_of_cities=[
 #Each element graph[i][j] represents the weight of the edge between the nodes of the cities
 # if there is no direction, the value is NULL
 print(np.array(graph_of_cities))
+
